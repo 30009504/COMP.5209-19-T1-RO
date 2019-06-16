@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+   
+</head>
+<body class="contact">
+    <header>
+    <h1>Melting Pot <br> Cafe</h1>
+        <div id="cart">
+            <img src="images/cart.jpeg" style="width:103px;height:83px;" align="right"></div>
+       <div id="cafe"> <img src="images/cafe%20coffee.jpeg" style="width:236px;height:218px;" align="right">
+        </div>
+        
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="about.html">About Us</a>
+  <a class="active" href="contact.html">Contact Us</a>
+</div>
+        
+    </header>
+
+    
+        <h2>Contact Us.</h2>
+     <p>Please fill this form in a decent manner</p>
+        <div id="Contact">
+            <form name="Contactform" onsubmit ="validateForm()">
+                Full Name: <br><input type="text" name="name" placeholder="Type in your name..." style="width:900px;height:20px;">
+                <br>
+                E-mail: <br><input type="email" name="email" placeholder="Type in your email..." style="width:900px;height:20px;">
+                <br>
+                Message:
+                <br>
+                <textarea name="message" rows="5" cols="30" placeholder="Type in your address..."style="width:900px;"></textarea>
+                <br>
+                <!--<input type ="submit" value="Send Message"-->
+                <div id="btn2">
+                <button type="Submit">SUBMIT</button>
+                </div>
+                
+                
+                
+            </form>
+             </div>
+    
+            <script>
+function validateForm()
+{
+    var name = document.forms["ContactForm"]["name"].value;
+    var email = document.forms["ContactForm"]["email"].value;
+    var message = document.forms["ContactForm"]["address"].value;
+
+    if(name == "")
+    {
+      alert("Name must be filled out");
+      return false;
+    }
+    else if(email == "")
+    {   alert("Email must be filled out");
+        return false;
+    }
+   else if(email.indexOf("@", 0) < 0)
+   { 	alert("Please enter a valid e-mail address!");  	
+        return false;
+   }  	
+   else if(email.indexOf(".", 0) < 0)
+   { 	alert("Please enter a valid e-mail address!");  	
+        return false;
+   }  	
+    else if(message == "")
+    {
+        alert("Message must be filled out");
+        return false;
+    }
+}
+</script>
+           
+ <!--Footer div-->
+    <div id="footer">
+        <p>Copyright © Melting Pot Cafe. All Rights Reserved.</p>
+        </div>
+         
+</body>
+
+</html>

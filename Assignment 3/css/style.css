@@ -1,0 +1,390 @@
+/* CSS for home page */
+
+body.home {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #56ccf2;
+}
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 200px;
+ 
+}
+#cart
+{
+   float: right;
+  position: absolute;
+  left: 950px;
+  top: 5px; 
+}
+#cafe{
+  float: right;
+  position: absolute;
+  left: 1280px;
+  top: 5px; 
+}
+.topnav {
+  overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.topnav a:hover {
+   color: green;
+}
+
+.topnav a.active {
+   color: red;
+}
+
+
+#text 
+{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+    
+}
+.videos
+{
+  text-align: center;  
+  
+}
+#aroma
+{
+  text-align: center; 
+  
+}
+#footer
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* CSS for menu page */
+
+body.menu {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #56ccf2;
+}
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 200px;
+ 
+}
+#cart
+{
+   float: right;
+  position: absolute;
+  left: 950px;
+  top: 5px; 
+}
+#cafe{
+  float: right;
+  position: absolute;
+  left: 1280px;
+  top: 5px; 
+}
+.topnav {
+  overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.topnav a:hover {
+   color: green;
+}
+
+.topnav a.active {
+   color: red;
+}
+
+.collections
+{
+   margin-left: 10px;
+}
+
+#footer
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* CSS for cart page */
+
+body.cart {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #56ccf2;
+}
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 200px;
+ 
+}
+
+#cafe{
+  float: right;
+  position: absolute;
+  left: 1280px;
+  top: 5px; 
+}
+.topnav {
+  overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.topnav a:hover {
+   color: green;
+}
+
+.topnav a.active {
+   color: red;
+}
+.order
+{
+   margin-left: 10px;
+   font-size: 30px;
+}
+#btn
+{
+   background-color: #CAB2B2
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  cursor: pointer; 
+ 
+}
+#footer
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+/* CSS for about us page */
+
+body.about {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #56ccf2;
+}
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 200px;
+ 
+}
+#cart
+{
+   float: right;
+  position: absolute;
+  left: 950px;
+  top: 5px; 
+}
+#cafe{
+  float: right;
+  position: absolute;
+  left: 1280px;
+  top: 5px; 
+}
+.topnav {
+  overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.topnav a:hover 
+{
+   color: green;
+}
+
+.topnav a.active
+{
+   color: red;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 30px;
+}
+#About
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+#footer
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* CSS for contact us page */
+
+body.contact {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #56ccf2;
+}
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 200px;
+ 
+}
+#cart
+{
+   float: right;
+  position: absolute;
+  left: 950px;
+  top: 5px; 
+}
+#cafe{
+  float: right;
+  position: absolute;
+  left: 1280px;
+  top: 5px; 
+}
+.topnav {
+  overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+
+.topnav a:hover {
+   color: green;
+}
+
+.topnav a.active {
+   color: red;
+}
+h2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+ 
+}
+#Contact
+{
+  text-align: left;
+    font-size: 25px;
+
+}
+#btn2
+{
+   background-color: #CAB2B2
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 50px;
+  cursor: pointer; 
+ 
+}
+
+#footer
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+
